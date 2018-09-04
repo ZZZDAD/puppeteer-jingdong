@@ -1,6 +1,7 @@
 const puppeteer = require('puppeteer');
+const fs = require('fs');
 
-(async () => {
+;(async () => {
 	const browser = await puppeteer.launch({
 		executablePath: '/Users/zhangdad/puppeteer-test/chrome-mac/Chromium.app/Contents/MacOS/Chromium',
 		headless: false
